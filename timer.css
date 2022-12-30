@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap'); 
+@import url(fonts/digital-7.ttf);
+
+@font-face {
+    font-family: 'digital-clock-font';
+    src: url('fonts/digital-7.ttf');
+}
+
+body{
+    background-color: black;
+}
+.timer-stop{
+    margin-left: 150px;
+    
+}
+#timer,#stopwatch{
+    position: relative;
+    margin-left: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    font-family: 'Old Standard TT', serif;
+    border-color: greenyellow;
+    font-size: 22px;
+    background-color:black;
+    color: #A7D129;
+    margin-top: 10px;
+}
+#timer:hover{
+    background-color: #54B435;
+    color: white;
+}
+#stopwatch:hover{
+    background-color: #54B435;
+    color: white;
+}
+.border1{
+    height: 50px;
+    width: 150px;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-color: #A7D129;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 170px;
+}
+.border2{
+    height: 50px;
+    width: 150px;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-color: #A7D129;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 344px;
+}
+
+.dot{
+    margin-right: 10px;
+    font-size: 23px;
+    color: #54B435;
+    font-weight: bold;
+    font-family: 'digital-clock-font';
+}
+
+.label{
+    color:#54B435;
+    font-size: 23px;
+}
+.label:hover{
+    color: white;
+}
+
+
+
+.hrmnsec{
+    display: flex;
+   padding-top: 25px;
+    line-height: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hour-label{
+    margin-right: 100px;
+}
+#min-label{
+    margin-right: 90px;
+}
+#sec-label{
+    
+}
+
+.heading{
+    font-family: 'Old Standard TT', serif;
+    color: #A7D129;
+    margin-bottom:  10px;
+    margin-top: 10px;
+    line-height: 3rem;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid #A7D129;
+    width: 100%;
+}
+
+#content{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-top: 190px;
+    color: white;
+}
+.rotate{
+    height: 400px;
+    width: 400px;
+    box-sizing: border-box;
+    box-shadow: 16px 14px 20px #00000008;
+    border-radius: 10px;
+    border: 1px solid #A7D129;
+    margin-left: 560px;
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+    transform: rotate(45deg);
+    position: absolute;
+}
+.rotate::before{
+    content: "" ;
+   
+    width:100%;
+}
+
+input{
+    border: 3px solid #A7D129;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    font-family: 'digital-clock-font';
+    color: #A7D129;
+    margin-right: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.stop-img{
+    width: 80px;
+    height: 80px;
+    
+    position: absolute;
+    margin-left: 1210px;
+    margin-bottom: 20px;
+}
+.stopwatchgif{
+    height: 150px;
+    width: 150px;
+    margin-top: -40px;
+}
+.inputs{
+    display: flex;
+    margin-left: 510px;
+}
+.btns{
+    margin-top: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #A7D129;
+    text-align: center;
+    margin-right: 20px;
+}
+.btns:hover{
+    background-color: lawngreen;
+    color: black;
+}
+.bgimage{
+    position: absolute;
+    margin-left: 610px;
+    margin-top: 125px;
+}
+.tim{
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+
+
+

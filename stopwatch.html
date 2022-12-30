@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stopwatch.css" />
+    <title>Online Timer and Stopwatch</title>
+  </head>
+  <body>
+    <div class="head">
+      <h1>Online Timer and Stopwatch</h1>
+    </div>
+    <div class="border1"></div>
+    <div class="border2"></div>
+    <div class="timer-stop">
+      <a href="index.html"><button id="timer">Timer</button></a>
+      <a href="stopwatch.html"><button id="stopwatch">Stopwatch</button></a>
+    </div>
+    <div class="container">
+      <div class="watch">
+        <div class="outer-circle">
+          <div class="inner-circle">
+            <span class="text hrs">00</span>
+            <p>:</p>
+            <span class="text mins"> 00</span>
+            <p>:</p>
+            <span class="text secs"> 00</span>
+            <p>:</p>
+            <span class="text msecs"> 00</span><br />
+          </div>
+        </div>
+        <div class="button-wrapper">
+          <button class="button start btns">Start</button>
+          <button class="button reset hidden btns">Reset</button>
+          <button class="button lap hidden btns">Lap</button>
+        </div>
+      </div>
+      <ul class="laps">
+        <!--  <li class="lap-item">
+          <span class="number">#1</span>
+          <span class="time-stamp">01:43:07</span><br class="br" />
+        </li> -->
+      </ul>
+      <button class="lap-clear-button hidden">Clear All</button>
+      <button onclick="download()" class="download-button hidden">
+        Download
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
